@@ -49,6 +49,7 @@
 		ED82E1AB26B909CD0056DC9E /* MarvelUniverseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelUniverseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED82E1AF26B909CD0056DC9E /* MarvelUniverseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelUniverseUITests.swift; sourceTree = "<group>"; };
 		ED82E1B126B909CD0056DC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED82E1C326B910A70056DC9E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		ED82E17E26B909CA0056DC9E = {
 			isa = PBXGroup;
 			children = (
+				ED82E1C326B910A70056DC9E /* Config.xcconfig */,
 				ED82E18926B909CA0056DC9E /* MarvelUniverse */,
 				ED82E1A326B909CD0056DC9E /* MarvelUniverseTests */,
 				ED82E1AE26B909CD0056DC9E /* MarvelUniverseUITests */,
@@ -309,6 +311,7 @@
 /* Begin XCBuildConfiguration section */
 		ED82E1B226B909CD0056DC9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED82E1C326B910A70056DC9E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -370,6 +373,7 @@
 		};
 		ED82E1B326B909CD0056DC9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED82E1C326B910A70056DC9E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
