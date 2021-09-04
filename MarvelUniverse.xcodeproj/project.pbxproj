@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1E49F826E3FD3200B8A33C /* MUTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E49F726E3FD3200B8A33C /* MUTabBarController.swift */; };
+		ED1E49FA26E4008F00B8A33C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E49F926E4008F00B8A33C /* Constants.swift */; };
 		ED82E18B26B909CA0056DC9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82E18A26B909CA0056DC9E /* AppDelegate.swift */; };
 		ED82E18D26B909CA0056DC9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82E18C26B909CA0056DC9E /* SceneDelegate.swift */; };
 		ED82E18F26B909CA0056DC9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82E18E26B909CA0056DC9E /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED1E49F726E3FD3200B8A33C /* MUTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUTabBarController.swift; sourceTree = "<group>"; };
+		ED1E49F926E4008F00B8A33C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ED82E18726B909CA0056DC9E /* MarvelUniverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelUniverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED82E18A26B909CA0056DC9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED82E18C26B909CA0056DC9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED1E49F626E3FCE200B8A33C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED1E49F726E3FD3200B8A33C /* MUTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		ED82E17E26B909CA0056DC9E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		ED82E18926B909CA0056DC9E /* MarvelUniverse */ = {
 			isa = PBXGroup;
 			children = (
+				ED1E49F626E3FCE200B8A33C /* Controllers */,
 				ED82E18A26B909CA0056DC9E /* AppDelegate.swift */,
 				ED82E18C26B909CA0056DC9E /* SceneDelegate.swift */,
 				ED82E18E26B909CA0056DC9E /* ViewController.swift */,
@@ -108,6 +121,7 @@
 				ED82E19826B909CD0056DC9E /* LaunchScreen.storyboard */,
 				ED82E19B26B909CD0056DC9E /* Info.plist */,
 				ED82E19326B909CA0056DC9E /* MarvelUniverse.xcdatamodeld */,
+				ED1E49F926E4008F00B8A33C /* Constants.swift */,
 			);
 			path = MarvelUniverse;
 			sourceTree = "<group>";
@@ -262,7 +276,9 @@
 				ED82E18F26B909CA0056DC9E /* ViewController.swift in Sources */,
 				ED82E18B26B909CA0056DC9E /* AppDelegate.swift in Sources */,
 				ED82E18D26B909CA0056DC9E /* SceneDelegate.swift in Sources */,
+				ED1E49F826E3FD3200B8A33C /* MUTabBarController.swift in Sources */,
 				ED82E19526B909CA0056DC9E /* MarvelUniverse.xcdatamodeld in Sources */,
+				ED1E49FA26E4008F00B8A33C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
